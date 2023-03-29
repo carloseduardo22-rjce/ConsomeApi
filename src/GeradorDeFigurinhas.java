@@ -32,7 +32,7 @@ public class GeradorDeFigurinhas {
         graphics.setColor(Color.YELLOW);
         graphics.setFont(fonte);
         // escrever uma frase na nova imagem
-        graphics.drawString("TOPZERA", 330, novaAltura - 70);
+        graphics.drawString("TOPZERA", 280, novaAltura - 70);
 
         // escrever a nova imagem em um novo arquivo
         ImageIO.write(novaImagem, "png", new File(nomeArquivo));
